@@ -139,7 +139,7 @@ const modalLoad = (data) =>{
     <div class="modal-box">
             <h3 class="text-lg font-bold">${data.name}</h3>
             <div class="my-4 mx-auto  overflow-hidden h-60 rounded-lg">
-                <img src=${data.image}" alt="" class="object-cover h-full w-full">
+                <img src="${data.image}" alt="" class="object-cover h-full w-full">
             </div>
             <p class="py-1 text-[14px]"><span class="font-semibold ">Category:</span> ${data.category}</p>
             <p class="py-1 text-[14px]"><span class="font-semibold ">Price:</span> ৳${data.price}</p>
@@ -169,3 +169,4 @@ const spinner = (status) =>{
 categoryData()
 
 cardData()
+
