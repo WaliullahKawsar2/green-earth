@@ -1,0 +1,28 @@
+body{
+    font-family: "Inter", sans-serif;
+}
+
+.common-btn{
+    background: #FACC15;
+    color: #15803D;
+    padding: 8px 16px;
+    border-radius: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    cursor: pointer;
+}
+
+.common-btn:hover{
+    background-color: #e2b70eeb;
+    color: #134927;
+}
+
+@media screen and (min-width:1024px) {
+    
+.hero-section{
+    background-image: url("./assets/hero-leaf1.png"),url("./assets/hero-leaf2.png");
+    background-position: left bottom, right bottom;
+    background-repeat: no-repeat;
+    background-size: auto;
+    min-height: 380px;
+    }
+}
